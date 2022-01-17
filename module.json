@@ -1,26 +1,26 @@
 {
-    "name": "sfrpg-quick-reference",
-    "title": "SFRPG Quick Reference",
-    "description": "A compendium pack with journal entries for all basic actions, skills and various other rules",
-    "author": "LebombJames",
-    "version": "v1.1.3",
-    "minimumCoreVersion": "0.8.0",
-    "compatibleCoreVersion": "9",
-    "manifest": "https://raw.githubusercontent.com/LebombJames/pathfinder2e-action-macros/main/module.json",
-    "download": "https://github.com/LebombJames/pathfinder2e-action-macros/archive/v1.1.3.zip",
-    "packs": [
-        {
-            "name": "sfrpg-quick-reference.db",
-            "label": "Quick Reference",
-            "path": "packs/sfrpg-quick-reference.db.db",
-            "entity": "JournalEntry",
-            "module": "SFRPG Quick Reference"
-        }
-    ]
-	"dependencies": [
-		{
-		  "name": "compendium-folders",
-		  "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json",
-		},
-	]	
+   "name":"sfrpg-quick-reference",
+   "title":"SFRPG Quick Reference",
+   "description":"A compendium pack with journal entries for all basic actions, skills and various other rules",
+   "author":"LebombJames",
+   "version":"v1.1.3",
+   "minimumCoreVersion":"0.8.0",
+   "compatibleCoreVersion":"9",
+   "manifest":"https://raw.githubusercontent.com/LebombJames/sfrpg-quick-reference/main/module.json",
+   "download":"https://github.com/LebombJames/sfrpg-quick-reference/archive/v1.0.0.zip",
+   "packs":[
+      {
+         "name":"sfrpg-quick-reference.db",
+         "label":"Quick Reference",
+         "path":"packs/sfrpg-quick-reference.db.db",
+         "entity":"JournalEntry",
+         "module":"SFRPG Quick Reference"
+      }
+   ],
+   "dependencies":[
+      {
+         "name":"compendium-folders",
+         "manifest":"https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+      }
+   ]
 }
