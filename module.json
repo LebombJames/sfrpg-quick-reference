@@ -10,9 +10,9 @@
    "download":"https://github.com/LebombJames/sfrpg-quick-reference/archive/v1.0.0.zip",
    "packs":[
       {
-         "name":"quick-reference.db",
+         "name":"quick-reference",
          "label":"Quick Reference",
-         "path":"packs/quick-reference.db",
+         "path":"./packs/quick-reference.db",
          "entity":"JournalEntry",
          "module":"SFRPG Quick Reference"
       }
